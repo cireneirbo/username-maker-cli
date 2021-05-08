@@ -1,9 +1,9 @@
 function selectRandomWordFromWords(array) {
-    return array[getRandomIndexOfArray(array)];
+    return array[getRandomNumber(array.length)];
 }
 
-function getRandomIndexOfArray(array) {
-    return Math.floor((Math.random() * array.length));
+function getRandomNumber(num) {
+    return Math.floor((Math.random() * num));
 }
 
-export { selectRandomWordFromWords };
+export { selectRandomWordFromWords, getRandomNumber };
