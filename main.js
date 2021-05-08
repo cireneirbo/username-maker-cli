@@ -1,5 +1,7 @@
 import { words } from './wordList.js';
+import { selectRandomWordFromWords } from './functions.js';
 
 
-console.log("hello world");
-console.log(words);
+for(let i = 0; i < 10; i++) {
+    console.log(selectRandomWordFromWords(words));
+}
