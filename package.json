@@ -1,0 +1,11 @@
+{
+  "name": "username-maker-cli",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "type": "module"
+}
